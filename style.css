@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+
+    --gray: hsl(240,9%,89%); /*(variavel) para todos lugares que for colocada a cor "--grey" irá usar essas propriedades, para usá-la use ex. "color: var(--grey)"*/
+    --black: hsl(240,6%,13%);
+
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased; /*fonte fica mais suave (funciona em navegadores webkit)*/
+}
+
+main{
+    background: url(images/backgrond1.svg);
+    width: 375px;
+    height: 812px;
+}
+
+.container{
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+
+    color: var(--gray); /*variavel criada anteriormente usada*/
+}
+
+.avatar{
+    width: 10rem;
+    margin: 13.70rem auto 0;
+}
+
+.avatar img{
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover; /*deixa a imagem cobrindo todo espaço vazio se adaptando as medidas estabelecidas*/
+
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); /*cria um objeto, no caso um poligono, para colocar as propriedades usar o site https://bennettfeely.com/clippy/ */
+}
+
+h1{
+    font-size: 1.5rem;
+
+    margin-top: 1.5rem;
+}
+
+a{
+    color: var(--gray);
+    text-decoration: none;
+
+    margin-top: 0.2rem;
+
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-top: 2rem;
+}
+
+ul{
+    margin-top: 4rem;
+
+    list-style: none; /*estilo da lista não ordenada*/
+    display: flex; /*tira as propriedades de texto e adiciona novas funções*/
+    gap: 0.5rem;
+
+    justify-content: center;
+}
+
+li{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+ul li a img{
+    width: 50px;
+    padding: 7px;
+}
+
+.container a img{
+    width: 20px;
+}
