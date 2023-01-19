@@ -1,0 +1,22 @@
+<svg width="375.00000000000006" height="812" xmlns="http://www.w3.org/2000/svg" stroke="null">
+ <defs stroke="null">
+  <linearGradient id="svg_71" x1="1" y1="1" x2="1" y2="0" spreadMethod="pad" stroke="null">
+   <stop stop-color="#000000" stop-opacity="0.98828" offset="0.26563" stroke="null"/>
+   <stop stop-color="#3d3434" offset="1" stop-opacity="0.99219" stroke="null"/>
+  </linearGradient>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_5_blur">
+   <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+  </filter>
+  <linearGradient id="svg_32" x1="0" y1="0" x2="1" y2="1" spreadMethod="pad" stroke="null">
+   <stop stop-color="#710fdb" stop-opacity="0.98828" offset="0.41797" stroke="null"/>
+   <stop stop-color="#101072" offset="1" stop-opacity="0.99219" stroke="null"/>
+  </linearGradient>
+ </defs>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <path transform="rotate(-45 187.5 24.8548)" fill="#11d6d6" opacity="NaN" d="m187.50004,455.55796" id="svg_3" stroke="#000"/>
+  <rect stroke="url(#gradbox_stroke)" fill="url(#svg_71)" stroke-width="0" opacity="NaN" x="-0.99995" y="100.03428" width="377" height="743.17624" id="svg_24"/>
+  <path transform="rotate(-45 183.248 29.8548)" filter="url(#svg_5_blur)" id="svg_5" d="m-42.46906,-173.28559l451.43481,0l0,436.28076l-451.43481,0l0,-436.28076z" opacity="undefined" stroke-width="0" stroke="#000" fill="url(#svg_32)"/>
+  <path transform="rotate(-45 193.855 30.8548)" id="svg_2" d="m-31.86261,-187.28559l451.43481,0l0,436.28076l-451.43481,0l0,-436.28076z" opacity="undefined" stroke-width="0" stroke="#000" fill="url(#svg_32)"/>
+ </g>
+</svg>
